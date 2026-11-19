@@ -1,0 +1,44 @@
+{
+  "name": "mcp-studio",
+  "version": "1.0.0",
+  "description": "Zero-dependency MCP generator & workbench (CLI + MCP server + Local Web Studio + SKILL.md) that turns OpenAPI specs, CLIs, HTTP APIs, and Windows desktop apps without native MCP support into tested MCP servers.",
+  "main": "index.cjs",
+  "bin": {
+    "mcp-studio": "./bin/mcp-studio.cjs",
+    "mcp-studio-mcp": "./bin/mcp-server.cjs"
+  },
+  "scripts": {
+    "check": "node --check index.cjs && node --check bin/mcp-studio.cjs && node --check bin/mcp-server.cjs && node --check lib/blueprints.cjs && node --check lib/generator.cjs && node --check lib/prober.cjs && node --check lib/store.cjs && node --check lib/installers.cjs && node --check lib/studio-web.cjs && node --check tests/mcp-studio.test.cjs",
+    "test": "node --test tests/mcp-studio.test.cjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-generator",
+    "openapi-to-mcp",
+    "cli-to-mcp",
+    "windows-automation",
+    "codex",
+    "gemini-cli",
+    "claude-code",
+    "nodejs"
+  ],
+  "author": "Emerson Almeida <https://github.com/deusbr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deusbr/mcp-studio.git"
+  },
+  "homepage": "https://github.com/deusbr/mcp-studio#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.cjs",
+    "bin/",
+    "lib/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ]
+}
