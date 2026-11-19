@@ -1,6 +1,6 @@
 {
   "name": "mcp-studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency MCP generator & workbench (CLI + MCP server + Local Web Studio + SKILL.md) that turns OpenAPI specs, CLIs, HTTP APIs, and Windows desktop apps without native MCP support into tested MCP servers.",
   "main": "index.cjs",
   "bin": {
