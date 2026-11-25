@@ -1,5 +1,7 @@
 # MCP Studio
 
+[![mcp-studio MCP server](https://glama.ai/mcp/servers/@deusbr/mcp-studio/badges/score.svg)](https://glama.ai/mcp/servers/@deusbr/mcp-studio)
+
 [![CI](https://github.com/deusbr/mcp-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/deusbr/mcp-studio/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933.svg)](https://nodejs.org)
